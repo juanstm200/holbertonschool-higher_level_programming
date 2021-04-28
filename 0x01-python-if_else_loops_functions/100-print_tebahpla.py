@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 for i in reversed(range(97, 123)):
-  if i % 2:
-    print(chr(i - 32), end='')
-  else:
-    print(chr(i), end='')
+    if i % 2 == 0:
+        alpha = chr(i)
+    else:
+        alpha = chr(i - 32)
+    print("{}".format(alpha), end='')
+    
