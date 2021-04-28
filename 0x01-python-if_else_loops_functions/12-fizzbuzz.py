@@ -11,4 +11,4 @@ def fizzbuzz():
     elif fizz == 0:
         print("Fizz", end=' ')
     else:
-        print("{}".format(i),end=' ')
+        print(i, end=' ')
