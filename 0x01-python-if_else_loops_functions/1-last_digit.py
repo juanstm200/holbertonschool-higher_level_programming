@@ -13,3 +13,4 @@ elif num > 5:
   print("{} is {} and is greater than 5".format(var, num))
 elif num < 6 and not 0:
   print("{} is {} and is less than 6 and not 0".format(var, num))
+  
