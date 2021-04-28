@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-
 var = "Last digit of {:d}".format(number)
 num = abs(number) % 10;
-
 if number < 0:
   num = -num
 
