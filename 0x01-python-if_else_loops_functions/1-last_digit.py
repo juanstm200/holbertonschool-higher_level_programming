@@ -3,9 +3,9 @@ import random
 number = random.randint(-10000, 10000)
 
 var = "Last digit of {:d}".format(number)
-num = abs(number) % 10;
+num = abs(number) % 10
 if number < 0:
-  num = -num
+    num = -num
 
 if num == 0:
     print("{} is {} and is 0".format(var, num))
