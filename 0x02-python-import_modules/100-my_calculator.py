@@ -10,19 +10,15 @@ if __name__ == '__main__':
   
     a = int(argv[1])
     b = int(argv[3])
-    for i in range(1,lent):
-        if argv[2] == operador[0]:
-            print("{} {} {} = {}".format(a, argv[2], b, add(a, b)))
-            break
-        elif argv[2] == operador[1]:
-            print("{} {} {} = {}".format(a, argv[2], b, sub(a, b)))
-            break
-        elif argv[2] == operador[2]:
-            print("{} {} {} = {}".format(a, argv[2], b, mul(a, b)))
-            break
-        elif argv[2] == operador[3]:
-            print("{} {} {} = {}".format(a, argv[2], b, div(a, b)))
-            break
-        else:
-            print("Unknown operator. Available operators: +, -, * and /")      
-            exit(1)
+
+    if argv[2] == operador[0]:
+        print("{} {} {} = {}".format(a, argv[2], b, add(a, b)))
+    elif argv[2] == operador[1]:
+        print("{} {} {} = {}".format(a, argv[2], b, sub(a, b)))
+    elif argv[2] == operador[2]:
+        print("{} {} {} = {}".format(a, argv[2], b, mul(a, b)))
+    elif argv[2] == operador[3]:
+        print("{} {} {} = {}".format(a, argv[2], b, div(a, b)))
+    else:
+        print("Unknown operator. Available operators: +, -, * and /")      
+        exit(1)
