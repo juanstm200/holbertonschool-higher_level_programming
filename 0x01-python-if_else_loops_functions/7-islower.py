@@ -4,4 +4,3 @@ def islower(c):
         return True
     elif ord(c) >= ord('A') and ord(c) <= ord('Z'):
         return False
-    
