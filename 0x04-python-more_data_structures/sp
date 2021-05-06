@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "#! /usr/bin/python3" >> 1-search_replace.py
+echo "#! /usr/bin/python3" >> 2-uniq_add.py
+echo "#! /usr/bin/python3" >> 3-common_elements.py
+echo "#! /usr/bin/python3" >> 4-only_diff_elements.py
+echo "#! /usr/bin/python3" >> 5-number_keys.py
+echo "#! /usr/bin/python3" >> 6-print_sorted_dictionary.py
+echo "#! /usr/bin/python3" >> 7-update_dictionary.py
+echo "#! /usr/bin/python3" >> 8-simple_delete.py
+echo "#! /usr/bin/python3" >> 9-multiply_by_2.py
+echo "#! /usr/bin/python3" >> 10-best_score.py
+echo "#! /usr/bin/python3" >> 11-multiply_list_map.py
+echo "#! /usr/bin/python3" >> 12-roman_to_int.py
+sed -i "s/ //g" *.py
