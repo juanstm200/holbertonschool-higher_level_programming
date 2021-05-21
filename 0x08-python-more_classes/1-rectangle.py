@@ -32,6 +32,6 @@ class Rectangle:
     def height(self, value):
         """property setter height to retrieve it"""
         if type(value) != int or value < 0:
-            raise TypeError("width must be >= 0")
+            raise TypeError("height must be >= 0")
         else:
             self.__height = value
