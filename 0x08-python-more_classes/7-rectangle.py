@@ -61,7 +61,7 @@ class Rectangle:
         rect_print = ''
         for i in range(self.__height):
             for j in range(self.__width):
-                rect_print += '{}'.format(Rectangle.print_symbol)
+                rect_print += '{}'.format(self.print_symbol)
             rect_print += '\n'
         return rect_print[:-1]
 
