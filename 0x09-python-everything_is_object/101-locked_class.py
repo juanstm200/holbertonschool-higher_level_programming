@@ -2,7 +2,7 @@
 """LockedClass"""
 
 
-def LockedClass():
+class LockedClass():
     """Module lockdclass"""
-    __locked__  = ['first_name']
+    __slots__ = ['first_name']
     pass
