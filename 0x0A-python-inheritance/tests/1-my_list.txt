@@ -1,3 +1,9 @@
+  >>> import os
+    >>> os.access('1-my_list.py', os.X_OK)
+    True
+	>>> os.access('1-my_list.py', os.F_OK)
+	True
+
 Import the function:
     >>> MyList = __import__('1-my_list').MyList
 
