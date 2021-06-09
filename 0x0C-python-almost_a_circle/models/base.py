@@ -1,17 +1,17 @@
 #!/usr/bin/python3
-""" Module for storing the Base class. """
+"""Modeules Class Import"""
 import json
 import csv
 from collections import OrderedDict
 
 
 class Base():
-    """ Class: Base, stores the basic attributes of the Base objects. """
+    """ Class: Base, stores the basic attribute. """
 
     __nb_objects = 0
 
     def __init__(self, id=None):
-        """init :id(int): value for the id of the new instance the class"""
+        """init :id(int): value for the id"""
         if id is not None:
             self.id = id
         else:
@@ -80,7 +80,7 @@ class Base():
 
     @classmethod
     def save_to_file_csv(cls, list_objs):
-        """Saves the given list of object written as a csv file."""
+        """Saves the given list of object"""
         filename = "{}.csv".format(cls.__name__)
         if list_objs:
             list_of_dictionaries = list(map(cls.to_dictionary, list_objs))
@@ -95,7 +95,7 @@ class Base():
 
     @classmethod
     def load_from_file_csv(cls):
-        """Reads from .csv file and returns a list of objects Base class"""
+        """Reads from .csv file and returns a list"""
         filename = "{}.csv".format(cls.__name__)
         list_of_dictionaries = []
         tmp_dictionary = {}
