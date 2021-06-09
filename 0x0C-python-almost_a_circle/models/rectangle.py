@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/python3
 """storing Rectangle class. """
 from models.base import Base
 from collections import OrderedDict
