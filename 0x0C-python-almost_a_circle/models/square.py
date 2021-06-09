@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module for storing the Square class. """
+""" Module Import class """
 from models.rectangle import Rectangle
 from collections import OrderedDict
 
