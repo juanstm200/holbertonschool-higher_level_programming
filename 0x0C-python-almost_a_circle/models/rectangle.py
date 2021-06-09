@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""storing Rectangle class. """
+"""Import Module"""
 from models.base import Base
 from collections import OrderedDict
 
@@ -25,11 +25,11 @@ class Rectangle(Base):
             raise TypeError("{} must be an integer".format(name))
 
     def area(self):
-        """ Returns the area of the Rectangle object. """
+        """ Returns the area of the Rectangle"""
         return self.width * self.height
 
     def display(self):
-        """ Prints the Rectangle object using width and height. """
+        """ Prints the Rectangle"""
         print("\n" * self.y, end='')
         for i in range(self.height):
             for j in range(self.width + self.x):
@@ -40,7 +40,7 @@ class Rectangle(Base):
             print('')
 
     def update(self, *args, **kwargs):
-        """ Updates all attributes of the Rectangle object. """
+        """ Updates all attributes of the Rectangle"""
 
         if bool(args) is True and args is not None:
             try:
