@@ -3,6 +3,7 @@
 
 
 def print_square(size):
+    """print_square"""
     if type(size) not in (int, float):
         raise TypeError("size must be an integer")
     if size <= -1:
