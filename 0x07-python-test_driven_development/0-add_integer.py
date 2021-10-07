@@ -2,7 +2,6 @@
 """Function what sum two integers
     a convert to integer
     b convert to integer
- 
 """
 
 
