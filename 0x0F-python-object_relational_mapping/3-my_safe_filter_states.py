@@ -8,7 +8,7 @@ if __name__ == "__main__":
     from sys import argv
     import MySQLdb
     database = MySQLdb.connect(user=argv[1], passwd=argv[2],
-                                database=argv[3])
+                               database=argv[3])
     createeate = database.cursor()
     createeate.execute("SELECT * from states\
                 WHERE name LIKE %s\
