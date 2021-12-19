@@ -6,9 +6,9 @@ lists all states with a name starting with N
 
 if __name__ == "__main__":
     from sys import argv
-    import MySQLdatabase
-    database = MySQLdatabase.connect(user=argv[1], passwd=argv[2],
-                                     database=argv[3])
+    import MySQLdb
+    database = MySQLdb.connect(user=argv[1], passwd=argv[2],
+                               database=argv[3])
     create = database.cursor()
     create.execute("SELECT * from states\
                 WHERE name LIKE 'N%'\
