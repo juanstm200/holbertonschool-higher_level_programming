@@ -2,7 +2,7 @@
 git add "$1"
 echo 'Ingrese Commit'
 read var
-git commit -m var
+git commit -m $var
 git push
 
 
