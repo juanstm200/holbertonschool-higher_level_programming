@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "#! /usr/bin/python3" >	0-hbtn_status.py
+echo "#! /usr/bin/python3" >	1-hbtn_header.py
+echo "#! /usr/bin/python3" >	2-post_email.py
+echo "#! /usr/bin/python3" >	3-error_code.py
+echo "#! /usr/bin/python3" >	4-hbtn_status.py
+echo "#! /usr/bin/python3" >	5-hbtn_header.py
+echo "#! /usr/bin/python3" >	6-post_email.py
+echo "#! /usr/bin/python3" >	7-error_code.py
+echo "#! /usr/bin/python3" >	8-json_api.py
+echo "#! /usr/bin/python3" >	10-my_github.py
+sed -i "s/ //g" *.py
+chmod 777 *.py
+
