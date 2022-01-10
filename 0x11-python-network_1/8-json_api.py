@@ -8,10 +8,10 @@ from sys import argv
 
 if __name__ == "__main__":
     if len(argv) == 2:
-        letter = argv[1]
+        q = argv[1]
     else:
-        letter = ""
-    rq = requests.post('http://0.0.0.0:5000/search_user', data={'q': letter})
+        q = ""
+    rq = requests.post('http://0.0.0.0:5000/search_user', data={'q': q})
 
     try:
         rq = res.json()
