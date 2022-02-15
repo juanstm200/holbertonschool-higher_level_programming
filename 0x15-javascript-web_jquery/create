@@ -1,5 +1,6 @@
 #!/bin/bash
 git add "$1"
-str2="[Feat\t~\t$1]($2)"
+str=" "
+str2="[Feat_~_$1]($2)"
 git commit -m $str2
 git push
